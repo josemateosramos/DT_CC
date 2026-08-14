@@ -1,0 +1,8 @@
+# CSI trajectory files: distributed as assets of the `data-v1` release
+# (~194 MB each, above GitHub's 100 MB file limit). Fetch with ./download_data.sh
+Wireless_InSite_data/Output_data/data_trajectory_*/H_all.npy
+*.npy.part
+
+# Python
+__pycache__/
+*.py[cod]
