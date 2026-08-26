@@ -1,6 +1,6 @@
 # Positioning via Digital-Twin-Aided Channel Charting with Large-Scale CSI Features
 
-Code of the paper *"Positioning via Digital-Twin-Aided Channel Charting with Large-Scale CSI Features"*, submitted to IEEE Trans. Wireless Commun.
+Code of the paper *"Positioning via Digital-Twin-Aided Channel Charting with Large-Scale CSI Features"*, in IEEE Trans. Wireless Commun.
 
 Channel charting (CC) is a self-supervised positioning technique whose estimated positions lie in an arbitrary coordinate system. This repository implements a framework that produces CC positions in **true spatial coordinates** with the aid of a digital twin (DT), by matching large-scale CSI features extracted from the measured CSI and from the DT with a cosine-similarity loss, which is then combined with a conventional CC loss.
 
@@ -118,4 +118,4 @@ The Wireless InSite geometry files of the scenario will be uploaded as soon as p
 
 If you use this code, please cite:
 
-> J. M. Mateos-Ramos, F. Zumegen, H. Wymeersch, C. Häger, and C. Studer, "Positioning via digital-twin-aided channel charting with large-scale CSI features," *IEEE Trans. Wireless Commun.*
+> J. M. Mateos-Ramos, F. Zumegen, H. Wymeersch, C. Häger, and C. Studer, "Positioning via digital-twin-aided channel charting with large-scale CSI features," *IEEE Trans. Wireless Commun.*, early access, Aug. 2026
