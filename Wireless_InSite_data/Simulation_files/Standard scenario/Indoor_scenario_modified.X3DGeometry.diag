@@ -1,0 +1,32 @@
+
+
+wibatch version 3.4.4.13 - r80045
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2026.05.04 13:28:58.855 Hostname: DESKTOP-K5LLL1T (pid: 19964)
+2026.05.04 13:28:58.871 Set working directory: C:/Users/Josemi/Desktop/Wireless Insite/Jose_Mateos_original/Jose_Mateos/Indoor scenario modified
+2026.05.04 13:28:58.871 Mon 4. May 13:28:58 2026
+
+2026.05.04 13:28:58.871 Creating geolocated X3D geometry cache (2 threads): ./Indoor_scenario_modified.X3DGeometry.cache
+2026.05.04 13:28:58.871 Loaded geometry: ./Floor Plan 1.flp
+2026.05.04 13:28:58.871 Checking for duplicate facets
+2026.05.04 13:28:58.926 Scene: read 52 facets.
+2026.05.04 13:28:58.926   Creating candidate facets for edge creation
+2026.05.04 13:28:58.928     Done creating candidate facets for edge creation
+2026.05.04 13:28:58.928   Creating scene edges
+2026.05.04 13:28:58.928     Done creating scene edges
+2026.05.04 13:28:58.928   Finishing scene edges
+2026.05.04 13:28:58.928     Done finishing scene edges
+2026.05.04 13:28:58.930 Writing 52 triangles to cache file
+2026.05.04 13:28:58.930 Writing edgeset (54 edges) to cache
+2026.05.04 13:28:58.930 Writing property list (1 properties) to cache
+2026.05.04 13:28:58.930   Property: 0, name=po_object_type, 52 entries
+2026.05.04 13:28:58.930 Successfully generated geometry cache; exiting.
+
+2026.05.04 13:28:58.930 Mon 4. May 13:28:58 2026
+
+
+
+2026.05.04 13:28:58.930 Total Runtime: : 00:00:00.058

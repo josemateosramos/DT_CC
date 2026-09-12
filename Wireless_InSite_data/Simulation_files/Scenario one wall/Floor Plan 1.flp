@@ -1,0 +1,550 @@
+Format type:keyword version: 1.1.0
+begin_<floorplan> Floor Plan 1
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+sealevel
+end_<reference>
+begin_<Material> Concrete
+description floor/ceiling
+Material 0
+LayeredDielectric
+begin_<Color> 
+ambient 0.750000 0.820000 0.810000 1.000000
+diffuse 0.750000 0.820000 0.810000 1.000000
+specular 0.750000 0.820000 0.810000 1.000000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 5.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 1.500e-02
+permittivity 10.000000
+roughness 0.000e+00
+thickness 1.700e-01
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> medium brick
+Material 1
+LayeredDielectric
+begin_<Color> 
+ambient 0.501961 0.000000 0.000000 0.500000
+diffuse 0.501961 0.000000 0.000000 0.500000
+specular 0.501961 0.000000 0.000000 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 5.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 1.000e-02
+permittivity 5.100000
+roughness 0.000e+00
+thickness 1.700e-01
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> thin brick
+Material 2
+LayeredDielectric
+begin_<Color> 
+ambient 0.623529 0.000000 0.000000 1.000000
+diffuse 0.623529 0.000000 0.000000 1.000000
+specular 0.623529 0.000000 0.000000 1.000000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 50.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 1.000e-02
+permittivity 5.100000
+roughness 0.000e+00
+thickness 8.000e-02
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> Wood
+Material 3
+LayeredDielectric
+begin_<Color> 
+ambient 0.501961 0.250980 0.250980 0.500000
+diffuse 0.501961 0.250980 0.250980 0.500000
+specular 0.501961 0.250980 0.250980 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 10.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 0.000e+00
+permittivity 3.000000
+roughness 0.000e+00
+thickness 8.000e-02
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> thin RC
+Material 4
+LayeredDielectric
+begin_<Color> 
+ambient 1.000000 0.501961 0.250980 0.500000
+diffuse 1.000000 0.501961 0.250980 0.500000
+specular 1.000000 0.501961 0.250980 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 10.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 6.000e-02
+permittivity 6.100000
+roughness 0.000e+00
+thickness 8.000e-02
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> medium RC
+Material 5
+LayeredDielectric
+begin_<Color> 
+ambient 1.000000 0.501961 0.250980 0.500000
+diffuse 1.000000 0.501961 0.250980 0.500000
+specular 1.000000 0.501961 0.250980 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 10.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 6.000e-02
+permittivity 6.100000
+roughness 0.000e+00
+thickness 1.700e-01
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> thick RC
+Material 6
+LayeredDielectric
+begin_<Color> 
+ambient 1.000000 0.501961 0.250980 0.500000
+diffuse 1.000000 0.501961 0.250980 0.500000
+specular 1.000000 0.501961 0.250980 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 10.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 6.000e-02
+permittivity 6.100000
+roughness 0.000e+00
+thickness 3.400e-01
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> thick brick
+Material 7
+LayeredDielectric
+begin_<Color> 
+ambient 0.501961 0.000000 0.000000 0.500000
+diffuse 0.501961 0.000000 0.000000 0.500000
+specular 0.501961 0.000000 0.000000 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 5.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 1.000e-02
+permittivity 5.100000
+roughness 0.000e+00
+thickness 3.400e-01
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> Metal
+Material 8
+PEC
+thickness 0.000e+00
+begin_<Color> 
+ambient 0.501961 1.000000 1.000000 0.500000
+diffuse 0.501961 1.000000 1.000000 0.500000
+specular 0.501961 1.000000 1.000000 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 75.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+roughness 0.000e+00
+end_<Material>
+begin_<Material> floor/ceiling
+Material 9
+LayeredDielectric
+begin_<Color> 
+ambient 0.000000 0.250980 0.501961 0.500000
+diffuse 0.000000 0.250980 0.501961 0.500000
+specular 0.000000 0.250980 0.501961 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 5.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.400000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 6.000e-02
+permittivity 10.000000
+roughness 0.000e+00
+thickness 1.700e-01
+end_<DielectricLayer>
+end_<Material>
+begin_<Material> Perfect absorber
+Material 10
+ConstantCoefficient
+thickness 0.000e+00
+begin_<Color> 
+ambient 1.000000 1.000000 0.000000 0.500000
+diffuse 1.000000 1.000000 0.000000 0.500000
+specular 1.000000 1.000000 0.000000 0.500000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 80.000000
+end_<Color>
+reflection_pl 0.000000
+reflection_pr 0.000000
+transmission_pl 0.000000
+transmission_pr 0.000000
+roughness 0.000000
+end_<Material>
+begin_<Material> ITU Wood 2.4 GHz
+Material 11
+LayeredDielectric
+begin_<Color> 
+ambient 0.730000 0.380000 0.170000 1.000000
+diffuse 0.730000 0.380000 0.170000 1.000000
+specular 0.730000 0.380000 0.170000 1.000000
+emission 0.000000 0.000000 0.000000 0.000000
+shininess 10.000000
+end_<Color>
+diffuse_scattering_model none
+fields_diffusively_scattered 0.030000
+cross_polarized_power 0.400000
+directive_alpha 4
+directive_beta 4
+directive_lambda 0.750000
+subdivide_facets yes
+reflection_coefficient_options do_not_use
+nLayers 1
+begin_<DielectricLayer> 
+conductivity 1.201e-02
+permittivity 1.990000
+roughness 0.000e+00
+thickness 3.000e-02
+end_<DielectricLayer>
+end_<Material>
+begin_<structure_group> 
+begin_<structure> 
+begin_<sub_structure> 
+begin_<face> 
+double_sided
+Material 4
+nVertices 4
+7.0000000000 16.0000000000 0.0000000000
+7.0000000000 26.5000000000 0.0000000000
+7.0000000000 26.5000000000 3.0000000000
+7.0000000000 16.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 5
+nVertices 4
+3.0000000000 13.0000000000 0.0000000000
+4.4999980927 13.0000133514 0.0000000000
+4.4999980927 13.0000133514 3.0000000000
+3.0000000000 13.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 5
+nVertices 4
+3.0000000000 9.0000000000 0.0000000000
+3.0000000000 10.0000000000 0.0000000000
+3.0000000000 10.0000000000 3.0000000000
+3.0000000000 9.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 5
+nVertices 4
+3.0000000000 9.0000000000 0.0000000000
+4.0000000000 9.0000000000 0.0000000000
+4.0000000000 9.0000000000 3.0000000000
+3.0000000000 9.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 6
+nVertices 4
+9.5000000000 26.5000000000 0.0000000000
+9.5000000000 12.0000000000 0.0000000000
+9.5000000000 12.0000000000 3.0000000000
+9.5000000000 26.5000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 5
+nVertices 4
+8.0000000000 13.0000000000 0.0000000000
+9.5000000000 13.0000000000 0.0000000000
+9.5000000000 13.0000000000 3.0000000000
+8.0000000000 13.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 7
+nVertices 4
+9.5000000000 12.0000000000 0.0000000000
+9.5000000000 9.0000000000 0.0000000000
+9.5000000000 9.0000000000 3.0000000000
+9.5000000000 12.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 1
+nVertices 4
+9.5000000000 9.0000000000 0.0000000000
+4.0000000000 9.0000000000 0.0000000000
+4.0000000000 9.0000000000 3.0000000000
+9.5000000000 9.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 1
+nVertices 4
+8.0000000000 13.0000000000 0.0000000000
+4.4999980927 13.0000133514 0.0000000000
+4.4999980927 13.0000133514 3.0000000000
+8.0000000000 13.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 3
+nVertices 4
+0.0000000000 0.0000000000 0.0000000000
+2.5000000000 0.0000000000 0.0000000000
+2.5000000000 0.0000000000 3.0000000000
+0.0000000000 0.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 3
+nVertices 4
+9.5000000000 0.0000000000 0.0000000000
+5.5000000000 0.0000000000 0.0000000000
+5.5000000000 0.0000000000 3.0000000000
+9.5000000000 0.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 8
+nVertices 4
+9.5000000000 9.0000000000 0.0000000000
+9.5000000000 6.5000000000 0.0000000000
+9.5000000000 6.5000000000 3.0000000000
+9.5000000000 9.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 8
+nVertices 4
+9.5000000000 6.5000000000 0.0000000000
+3.0000000000 6.5000000000 0.0000000000
+3.0000000000 6.5000000000 3.0000000000
+9.5000000000 6.5000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 8
+nVertices 4
+3.0000000000 9.0000000000 0.0000000000
+3.0000000000 8.0000000000 0.0000000000
+3.0000000000 8.0000000000 3.0000000000
+3.0000000000 9.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 5
+nVertices 4
+3.0000000000 8.0000000000 0.0000000000
+3.0000000000 6.5000000000 0.0000000000
+3.0000000000 6.5000000000 3.0000000000
+3.0000000000 8.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 1
+nVertices 4
+3.0000000000 10.0000000000 0.0000000000
+3.0000000000 11.0000000000 0.0000000000
+3.0000000000 11.0000000000 3.0000000000
+3.0000000000 10.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 5
+nVertices 4
+3.0000000000 11.0000000000 0.0000000000
+3.0000000000 11.5000000000 0.0000000000
+3.0000000000 11.5000000000 3.0000000000
+3.0000000000 11.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 3
+nVertices 4
+0.0000000000 16.0000000000 0.0000000000
+0.0000000000 15.0000000000 0.0000000000
+0.0000000000 15.0000000000 3.0000000000
+0.0000000000 16.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 2
+nVertices 4
+0.0000000000 15.0000000000 0.0000000000
+0.0000000000 13.0000000000 0.0000000000
+0.0000000000 13.0000000000 3.0000000000
+0.0000000000 15.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 4
+nVertices 4
+0.0000000000 16.0000000000 0.0000000000
+7.0000000000 16.0000000000 0.0000000000
+7.0000000000 16.0000000000 3.0000000000
+0.0000000000 16.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 1
+nVertices 4
+0.0000000000 0.0000000000 0.0000000000
+0.0000000000 7.5000000000 0.0000000000
+0.0000000000 7.5000000000 3.0000000000
+0.0000000000 0.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 1
+nVertices 4
+0.0000000000 9.5000000000 0.0000000000
+0.0000000000 13.0000000000 0.0000000000
+0.0000000000 13.0000000000 3.0000000000
+0.0000000000 9.5000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 9
+nVertices 6
+9.5000000000 0.0000000000 0.0000000000
+9.5000000000 26.5000000000 0.0000000000
+7.0000000000 26.5000000000 0.0000000000
+7.0000000000 16.0000000000 0.0000000000
+0.0000000000 16.0000000000 0.0000000000
+0.0000000000 0.0000000000 0.0000000000
+end_<face>
+begin_<face> 
+invisible
+double_sided
+Material 9
+nVertices 6
+0.0000000000 0.0000000000 3.0000000000
+0.0000000000 16.0000000000 3.0000000000
+7.0000000000 16.0000000000 3.0000000000
+7.0000000000 26.5000000000 3.0000000000
+9.5000000000 26.5000000000 3.0000000000
+9.5000000000 0.0000000000 3.0000000000
+end_<face>
+begin_<face> 
+double_sided
+Material 11
+nVertices 4
+4.4999980927 13.0000133514 0.0000000000
+4.4999980927 16.0000247955 0.0000000000
+4.4999980927 16.0000247955 3.0000000000
+4.4999980927 13.0000133514 3.0000000000
+end_<face>
+end_<sub_structure>
+end_<structure>
+end_<structure_group>
+begin_<editorSettings> 
+floor_height 0.0000000000
+ceiling_height 3.0000000000
+heights_set 0
+end_<editorSettings>
+end_<floorplan>

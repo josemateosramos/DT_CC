@@ -1,0 +1,44 @@
+
+
+wibatch version 3.4.4.13 - r80045
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2026.04.18 10:20:37.937 Hostname: DESKTOP-K5LLL1T (pid: 15484)
+2026.04.18 10:20:37.937 Set working directory: C:/Users/Josemi/Desktop/Wireless Insite/Jose_Mateos_original/Jose_Mateos/Indoor scenario several boxes
+2026.04.18 10:20:37.939 Sat 18. Apr 10:20:37 2026
+
+2026.04.18 10:20:37.939 Creating geolocated X3D geometry cache (2 threads): ./Indoor_scenario_modified.X3DGeometry.cache
+2026.04.18 10:20:37.950 Loaded geometry: ./Floor Plan 1.flp
+2026.04.18 10:20:37.950 Loaded geometry: ./Box.object
+2026.04.18 10:20:37.950 Loaded geometry: ./Box(2).object
+2026.04.18 10:20:37.952 Loaded geometry: ./Box(3).object
+2026.04.18 10:20:37.952 Loaded geometry: ./Box(4).object
+2026.04.18 10:20:37.952 Loaded geometry: ./Box(6).object
+2026.04.18 10:20:37.952 Loaded geometry: ./Box(7).object
+2026.04.18 10:20:37.952 Loaded geometry: ./Box(8).object
+2026.04.18 10:20:37.952 Loaded geometry: ./Box(9).object
+2026.04.18 10:20:37.952 Loaded geometry: ./Box(10).object
+2026.04.18 10:20:37.954 Loaded geometry: ./Box(11).object
+2026.04.18 10:20:37.954 Loaded geometry: ./Box(12).object
+2026.04.18 10:20:37.954 Loaded geometry: ./Box(13).object
+2026.04.18 10:20:37.960 Checking for duplicate facets
+2026.04.18 10:20:38.002 Scene: read 196 facets.
+2026.04.18 10:20:38.006   Creating candidate facets for edge creation
+2026.04.18 10:20:38.010     Done creating candidate facets for edge creation
+2026.04.18 10:20:38.010   Creating scene edges
+2026.04.18 10:20:38.012     Done creating scene edges
+2026.04.18 10:20:38.012   Finishing scene edges
+2026.04.18 10:20:38.012     Done finishing scene edges
+2026.04.18 10:20:38.014 Writing 196 triangles to cache file
+2026.04.18 10:20:38.014 Writing edgeset (198 edges) to cache
+2026.04.18 10:20:38.014 Writing property list (1 properties) to cache
+2026.04.18 10:20:38.014   Property: 0, name=po_object_type, 196 entries
+2026.04.18 10:20:38.016 Successfully generated geometry cache; exiting.
+
+2026.04.18 10:20:38.016 Sat 18. Apr 10:20:38 2026
+
+
+
+2026.04.18 10:20:38.016 Total Runtime: : 00:00:00.075

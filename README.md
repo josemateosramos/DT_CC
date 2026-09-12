@@ -14,7 +14,9 @@ lib/
   neural_networks.py         MLP with softmax output and dropout
 methods/                     Training and testing scripts (one per method, see below)
 preprocessing_simulations/   Wireless InSite output -> CSI matrix H, DT grid, large-scale features
-Wireless_InSite_data/        Ray-tracing data used in the simulations
+Wireless_InSite_data/
+  Output_data/               Ray-tracing data used in the simulations
+  Simulation_files/          Wireless InSite projects that generated that data
 ```
 
 ## Requirements
@@ -112,7 +114,26 @@ The assets can also be downloaded by hand from the [release page](https://github
 
 The scripts in `preprocessing_simulations/` generate these files from the raw Wireless InSite output: `read_csi_to_H.py` (CIR to CSI matrix `H`), `read_power.py` (received power per AP), `grid_positions.py` (DT grid of Fig. 2) and `compute_ls_feat_from_H.py` (angle-power, delay-power, covariance and truncated delay profiles).
 
-The Wireless InSite geometry files of the scenario will be uploaded as soon as possible.
+### Wireless InSite project files
+
+`Wireless_InSite_data/Simulation_files/` contains the ray-tracing projects that generated all the data above, so that the simulations can be reproduced or modified. They were built and run with **Remcom Wireless InSite® version 3.4.4.13**. Wireless InSite is a commercial product of [Remcom](https://www.remcom.com), which is not affiliated with this work, and a valid license is needed to open and run these projects.
+
+Each folder is a self-contained project (`.setup`, `.txrx`, the `.flp` floor plan, the `.vw` view and the X3D geometry file; `Scenario boxes/` additionally ships the `Box*.object` files):
+
+| Folder | Scenario |
+|---|---|
+| `Standard scenario/` | Nominal scenario of Fig. 2. It also contains the variants built on top of it: the UE trajectory at h = 0.8 m, the APs shifted by half a wavelength, and the DT grids with the different spacings |
+| `Scenario all wood/` | Nominal scenario with all the walls made out of wood |
+| `Scenario boxes/` | Nominal scenario with the boxes added in the largest room (Fig. 6) |
+| `Scenario four walls/` | Nominal scenario with the four additional walls of Fig. 5 |
+| `Scenario one wall/` | Nominal scenario with only one of those walls (wall 4 of Fig. 5) |
+
+**The APs and the DT grid points are distributed in sets.** The APs are split into four point sets (`AP_Set_1_1` … `AP_Set_1_4`) and the DT grid into six grid sets, one per area of the floor plan (`UE_Set_1` … `UE_Set_6`). All the sets of the configuration being simulated must be **active at the same time**; otherwise part of the APs or of the DT grid is missing from the output. Their ordering is what fixes the AP ordering used throughout the data (see `Wireless_InSite_data/Output_data/README.md`).
+
+**Select what to simulate.** Every project contains both the DT grid points and the UE trajectory, and only one of the two should be active in a given run:
+
+- the `UE_Set_*` grids (0.5 m spacing, h = 1.5 m) produce the DT data of the `data_dt_*` folders;
+- the `UE_trajectory` trajectory (h = 1.5 m, 2.5 cm point spacing at 1 m/s; named `First_trajectory` in `Scenario boxes/`) produces the measured CSI of the `data_trajectory_*` folders.
 
 ## Citation
 

@@ -1,0 +1,999 @@
+
+
+wibatch version 3.4.4.13 - r80045
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2026.04.26 17:17:27.009 Hostname: DESKTOP-K5LLL1T (pid: 14260)
+2026.04.26 17:17:27.009 Set working directory: C:/Users/Josemi/Desktop/Wireless Insite/Jose_Mateos_original/Jose_Mateos/Indoor scenario door
+2026.04.26 17:17:27.039 Sun 26. Apr 17:17:27 2026
+
+2026.04.26 17:17:27.056 OptiX Runtime version = 60810
+2026.04.26 17:17:27.056 CUDA Runtime version = 9.2
+2026.04.26 17:17:27.056 CUDA Driver version  = 13.0
+2026.04.26 17:17:27.056 GPU device #0: [NVIDIA GeForce GTX 1650], 7.5 capability, 16 total cores, 1024 threads per block
+
+2026.04.26 17:17:27.362 Initializing X3D model
+
+2026.04.26 17:17:27.374 ============ ATMOSPHERE ============
+
+2026.04.26 17:17:27.374 Pressure = 1013.25
+2026.04.26 17:17:27.374 Temperature = 22.2
+2026.04.26 17:17:27.374 Humidity = 50
+
+2026.04.26 17:17:27.374 Added 0 route and 0 snapshot platforms.
+2026.04.26 17:17:27.374 ============ GEOMETRY ============
+
+2026.04.26 17:17:27.374 Processing geometry (2 CPU threads)
+2026.04.26 17:17:27.374 Loaded geometry: ./Indoor_scenario_modified.X3DGeometry.cache
+
+2026.04.26 17:17:27.374  ============ TRANSMITTER/RECEIVER SETS ============
+
+2026.04.26 17:17:27.374 Generating transmitter and receiver sets
+2026.04.26 17:17:27.385 TxRx set: AP_Set_1_1  Set number: 17  Type: PointSet  Number of points: 2  APG Accelerated: no  Fit to terrain: yes
+2026.04.26 17:17:27.385   Transmitter:
+2026.04.26 17:17:27.385     Input power (dBm): 16.9794
+2026.04.26 17:17:27.385     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.385     Antenna: MIMO
+2026.04.26 17:17:27.385       MIMOSubAntenna: Omnidirectional  Index: 0
+2026.04.26 17:17:27.385         Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.385         Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.385         E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+
+2026.04.26 17:17:27.385       Array index: 1  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0936851  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.385       Array index: 2  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0312284  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.385       Array index: 3  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0312284  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.385       Array index: 4  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0936851  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+
+2026.04.26 17:17:27.387 TxRx set: AP_Set_1_2  Set number: 18  Type: PointSet  Number of points: 2  APG Accelerated: no  Fit to terrain: yes
+2026.04.26 17:17:27.387   Transmitter:
+2026.04.26 17:17:27.387     Input power (dBm): 16.9794
+2026.04.26 17:17:27.387     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.387     Antenna: MIMO
+2026.04.26 17:17:27.387       MIMOSubAntenna: Omnidirectional  Index: 0
+2026.04.26 17:17:27.387         Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.387         Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.387         E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+
+2026.04.26 17:17:27.387       Array index: 1  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0936851  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.387       Array index: 2  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0312284  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.387       Array index: 3  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0312284  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.387       Array index: 4  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0936851  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+
+2026.04.26 17:17:27.388 TxRx set: AP_Set_1_3  Set number: 19  Type: PointSet  Number of points: 2  APG Accelerated: no  Fit to terrain: yes
+2026.04.26 17:17:27.388   Transmitter:
+2026.04.26 17:17:27.388     Input power (dBm): 16.9794
+2026.04.26 17:17:27.388     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.388     Antenna: MIMO
+2026.04.26 17:17:27.388       MIMOSubAntenna: Omnidirectional  Index: 0
+2026.04.26 17:17:27.388         Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.388         Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.388         E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+
+2026.04.26 17:17:27.388       Array index: 1  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0936851  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.388       Array index: 2  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0312284  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.388       Array index: 3  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0312284  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.388       Array index: 4  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0936851  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+
+2026.04.26 17:17:27.392 TxRx set: AP_Set_1_4  Set number: 20  Type: PointSet  Number of points: 2  APG Accelerated: no  Fit to terrain: yes
+2026.04.26 17:17:27.392   Transmitter:
+2026.04.26 17:17:27.392     Input power (dBm): 16.9794
+2026.04.26 17:17:27.392     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.392     Antenna: MIMO
+2026.04.26 17:17:27.392       MIMOSubAntenna: Omnidirectional  Index: 0
+2026.04.26 17:17:27.392         Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.392         Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.392         E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+
+2026.04.26 17:17:27.392       Array index: 1  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0936851  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.392       Array index: 2  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0312284  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.392       Array index: 3  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0312284  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2026.04.26 17:17:27.392       Array index: 4  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0936851  Offset (Z) [m]: 0  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+
+2026.04.26 17:17:27.394 TxRx set: UE_Set_1  Set number: 11  Type: GridSet  Number of points: 247  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:17:27.394   Receiver:
+2026.04.26 17:17:27.394     Collection radius (m): auto
+2026.04.26 17:17:27.394     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.394     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.394     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:17:27.394   Length (x) [m]: 9.34  Length (y) [m]: 6.31  Planar rotation (degrees): 0  Spacing (m): 0.5
+2026.04.26 17:17:27.394 TxRx set: UE_Set_2  Set number: 12  Type: GridSet  Number of points: 114  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:17:27.394   Receiver:
+2026.04.26 17:17:27.394     Collection radius (m): auto
+2026.04.26 17:17:27.394     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.394     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.394     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:17:27.394   Length (x) [m]: 2.77  Length (y) [m]: 9.42  Planar rotation (degrees): 0  Spacing (m): 0.5
+2026.04.26 17:17:27.394 TxRx set: UE_Set_3  Set number: 13  Type: GridSet  Number of points: 65  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:17:27.394   Receiver:
+2026.04.26 17:17:27.394     Collection radius (m): auto
+2026.04.26 17:17:27.394     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.394     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.394     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:17:27.394   Length (x) [m]: 6.21  Length (y) [m]: 2.28  Planar rotation (degrees): 0  Spacing (m): 0.5
+2026.04.26 17:17:27.396 TxRx set: UE_Set_4  Set number: 14  Type: GridSet  Number of points: 104  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:17:27.396   Receiver:
+2026.04.26 17:17:27.396     Collection radius (m): auto
+2026.04.26 17:17:27.396     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.396     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.396     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:17:27.396   Length (x) [m]: 6.21  Length (y) [m]: 3.71  Planar rotation (degrees): 0  Spacing (m): 0.5
+2026.04.26 17:17:27.396 TxRx set: UE_Set_5  Set number: 15  Type: GridSet  Number of points: 78  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:17:27.396   Receiver:
+2026.04.26 17:17:27.396     Collection radius (m): auto
+2026.04.26 17:17:27.396     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.396     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.396     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:17:27.396   Length (x) [m]: 6.41  Length (y) [m]: 2.68  Planar rotation (degrees): 0  Spacing (m): 0.5
+2026.04.26 17:17:27.396 TxRx set: UE_Set_6  Set number: 16  Type: GridSet  Number of points: 105  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:17:27.396   Receiver:
+2026.04.26 17:17:27.396     Collection radius (m): auto
+2026.04.26 17:17:27.396     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:17:27.396     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:17:27.396     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:17:27.396   Length (x) [m]: 2.29  Length (y) [m]: 10.42  Planar rotation (degrees): 0  Spacing (m): 0.5
+2026.04.26 17:17:27.396   Auto Collection Radius = 0.025311m
+2026.04.26 17:17:27.396 ============ MATERIALS ============
+
+2026.04.26 17:17:27.402 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 10  Conductivity (S/m): 0.015  Thickness (m): 0.17  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 1  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 5.1  Conductivity (S/m): 0.01  Thickness (m): 0.17  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 2  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 5.1  Conductivity (S/m): 0.01  Thickness (m): 0.08  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 3  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 3  Conductivity (S/m): 0  Thickness (m): 0.08  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 4  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 6.1  Conductivity (S/m): 0.06  Thickness (m): 0.08  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 5  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 6.1  Conductivity (S/m): 0.06  Thickness (m): 0.17  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 6  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 6.1  Conductivity (S/m): 0.06  Thickness (m): 0.34  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 7  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 5.1  Conductivity (S/m): 0.01  Thickness (m): 0.34  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 8  Type: PEC  Thickness (m): 0
+2026.04.26 17:17:27.402   Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 9  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 10  Conductivity (S/m): 0.06  Thickness (m): 0.17  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Material number: 11  Type: LayeredDielectric  Thickness (m): 0
+2026.04.26 17:17:27.402   Layer 0: 
+2026.04.26 17:17:27.402     Relative permittivity: 1.99  Conductivity (S/m): 0.01201  Thickness (m): 0.03  Roughness (m): 0
+
+2026.04.26 17:17:27.402 Building structure facet lists...
+
+2026.04.26 17:17:27.402 ============ SCENE ============
+
+2026.04.26 17:17:27.402 Scene information: 
+                          Number of original facets: 54
+                          Number of spheres: 7
+
+                          Maximum Scene Distance: 58.0086
+                          Bounding box: 
+                            Minimum: (0, 0, 0)
+                            Maximum: (9.5, 26.5, 3)
+
+                          Number of superedges: 54
+
+2026.04.26 17:17:27.833 ============ MODEL ============
+
+2026.04.26 17:17:27.871 Starting X3D ray tracing for Tx set 17, point 1 (point 1 of 8 total)
+2026.04.26 17:17:27.871   Diffraction cone ray angle = 0.05
+2026.04.26 17:17:27.871   Using 1 GPU ray tracer (2 CPU threads)
+2026.04.26 17:17:27.943   Ray tracing ranges: 
+2026.04.26 17:17:27.943     Minimum phi: 0
+2026.04.26 17:17:27.943     Maximum phi: 360
+2026.04.26 17:17:27.943     Minimum theta: 0
+2026.04.26 17:17:27.943     Maximum theta: 180
+2026.04.26 17:17:27.943   Model parameters: 
+2026.04.26 17:17:27.943     Reflections:         3
+2026.04.26 17:17:27.943     Transmissions:       0
+2026.04.26 17:17:27.943     Diffractions:        1
+2026.04.26 17:17:27.943     Ray spacing (degrees): 0.05
+
+2026.04.26 17:17:27.944   Advanced model parameters:
+2026.04.26 17:17:27.944     Maximum reflections before first diffraction: 2
+2026.04.26 17:17:27.944     Maximum reflections between two diffractions: 0
+2026.04.26 17:17:27.944     Maximum reflections after last diffraction: 2
+2026.04.26 17:17:27.944   Detected 1 GPU devices.
+2026.04.26 17:17:28.194   Licensed 1 GPU devices.
+2026.04.26 17:17:28.194   Running on 1 GPU devices.
+2026.04.26 17:17:28.194     Device ID's: [ 0 ]
+2026.04.26 17:17:29.495   Optimized concurrent GPU rays: 65536
+2026.04.26 17:18:07.463   GPU ray tracing (19372/65536 active): 5% complete
+
+2026.04.26 17:18:07.558   Beginning next round of queued diffractions
+
+2026.04.26 17:18:27.112   GPU ray tracing (65536/65536 active): 5% complete
+2026.04.26 17:19:15.270   GPU ray tracing (65536/65536 active): 10% complete
+2026.04.26 17:20:10.511   GPU ray tracing (65536/65536 active): 15% complete
+2026.04.26 17:21:15.478   GPU ray tracing (65536/65536 active): 20% complete
+2026.04.26 17:21:17.234   GPU ray tracing (28133/65536 active): 25% complete
+2026.04.26 17:21:17.505   Total Number of Rays shot: 340525056
+2026.04.26 17:21:17.505   Total Number of active rays shot: 339335116
+2026.04.26 17:21:17.505   Total Initial Rays shot: 16582377
+2026.04.26 17:21:17.505   641 unique paths found.
+2026.04.26 17:21:17.505   87 partial paths from Tx to edges.
+
+2026.04.26 17:21:17.505   Calculating E-fields and generating output
+
+2026.04.26 17:21:17.508     ============ ATMOSPHERE ============
+2026.04.26 17:21:17.508     Frequency = 2.4e+09
+2026.04.26 17:21:17.508     Attenuation (db/km) = 0.00675207
+2026.04.26 17:21:17.588     Original interaction chains:           641
+2026.04.26 17:21:17.588     Interaction chains eliminated:          23
+2026.04.26 17:21:17.588     Physical paths generated:              618
+2026.04.26 17:21:17.588     High power paths retained:             500
+2026.04.26 17:21:17.588     Low power paths eliminated:            118
+
+
+2026.04.26 17:21:17.665 Starting X3D ray tracing for Tx set 17, point 2 (point 2 of 8 total)
+2026.04.26 17:21:17.665   Diffraction cone ray angle = 0.05
+2026.04.26 17:21:17.665   Using 1 GPU ray tracer (2 CPU threads)
+2026.04.26 17:21:17.692   Ray tracing ranges: 
+2026.04.26 17:21:17.692     Minimum phi: 0
+2026.04.26 17:21:17.692     Maximum phi: 360
+2026.04.26 17:21:17.692     Minimum theta: 0
+2026.04.26 17:21:17.692     Maximum theta: 180
+2026.04.26 17:21:17.692   Model parameters: 
+2026.04.26 17:21:17.692     Reflections:         3
+2026.04.26 17:21:17.692     Transmissions:       0
+2026.04.26 17:21:17.692     Diffractions:        1
+2026.04.26 17:21:17.692     Ray spacing (degrees): 0.05
+
+2026.04.26 17:21:17.696   Advanced model parameters:
+2026.04.26 17:21:17.696     Maximum reflections before first diffraction: 2
+2026.04.26 17:21:17.696     Maximum reflections between two diffractions: 0
+2026.04.26 17:21:17.696     Maximum reflections after last diffraction: 2
+2026.04.26 17:21:17.696   Detected 1 GPU devices.
+2026.04.26 17:21:17.700   Licensed 1 GPU devices.
+2026.04.26 17:21:17.700   Running on 1 GPU devices.
+2026.04.26 17:21:17.700     Device ID's: [ 0 ]
+2026.04.26 17:21:17.892   Optimized concurrent GPU rays: 65536
+2026.04.26 17:22:12.600   GPU ray tracing (6497/65536 active): 5% complete
+
+2026.04.26 17:22:12.632   Beginning next round of queued diffractions
+
+2026.04.26 17:22:45.496   GPU ray tracing (36093/65536 active): 16% complete
+2026.04.26 17:22:46.232   Total Number of Rays shot: 122814464
+2026.04.26 17:22:46.232   Total Number of active rays shot: 121556737
+2026.04.26 17:22:46.232   Total Initial Rays shot: 16582377
+2026.04.26 17:22:46.232   223 unique paths found.
+2026.04.26 17:22:46.232   62 partial paths from Tx to edges.
+
+2026.04.26 17:22:46.232   Calculating E-fields and generating output
+
+2026.04.26 17:22:46.232     ============ ATMOSPHERE ============
+2026.04.26 17:22:46.232     Frequency = 2.4e+09
+2026.04.26 17:22:46.232     Attenuation (db/km) = 0.00675207
+2026.04.26 17:22:46.268     Original interaction chains:           223
+2026.04.26 17:22:46.268     Interaction chains eliminated:          64
+2026.04.26 17:22:46.268     Physical paths generated:              159
+2026.04.26 17:22:46.268     High power paths retained:             159
+2026.04.26 17:22:46.268     Low power paths eliminated:              0
+
+
+2026.04.26 17:22:46.326 Starting X3D ray tracing for Tx set 18, point 1 (point 3 of 8 total)
+2026.04.26 17:22:46.326   Diffraction cone ray angle = 0.05
+2026.04.26 17:22:46.326   Using 1 GPU ray tracer (2 CPU threads)
+2026.04.26 17:22:46.342   Ray tracing ranges: 
+2026.04.26 17:22:46.342     Minimum phi: 0
+2026.04.26 17:22:46.342     Maximum phi: 360
+2026.04.26 17:22:46.342     Minimum theta: 0
+2026.04.26 17:22:46.342     Maximum theta: 180
+2026.04.26 17:22:46.342   Model parameters: 
+2026.04.26 17:22:46.342     Reflections:         3
+2026.04.26 17:22:46.342     Transmissions:       0
+2026.04.26 17:22:46.342     Diffractions:        1
+2026.04.26 17:22:46.342     Ray spacing (degrees): 0.05
+
+2026.04.26 17:22:46.342   Advanced model parameters:
+2026.04.26 17:22:46.342     Maximum reflections before first diffraction: 2
+2026.04.26 17:22:46.342     Maximum reflections between two diffractions: 0
+2026.04.26 17:22:46.342     Maximum reflections after last diffraction: 2
+2026.04.26 17:22:46.342   Detected 1 GPU devices.
+2026.04.26 17:22:46.360   Licensed 1 GPU devices.
+2026.04.26 17:22:46.360   Running on 1 GPU devices.
+2026.04.26 17:22:46.360     Device ID's: [ 0 ]
+2026.04.26 17:22:46.499   Optimized concurrent GPU rays: 65536
+2026.04.26 17:23:32.488   GPU ray tracing (35652/65536 active): 5% complete
+
+2026.04.26 17:23:32.602   Beginning next round of queued diffractions
+
+2026.04.26 17:24:25.027   GPU ray tracing (65536/65536 active): 10% complete
+2026.04.26 17:25:15.939   GPU ray tracing (65536/65536 active): 15% complete
+2026.04.26 17:25:39.492   GPU ray tracing (45906/65536 active): 22% complete
+2026.04.26 17:25:41.300   GPU ray tracing (33323/65536 active): 26% complete
+2026.04.26 17:25:41.602   Total Number of Rays shot: 299040768
+2026.04.26 17:25:41.602   Total Number of active rays shot: 297760318
+2026.04.26 17:25:41.602   Total Initial Rays shot: 16582377
+2026.04.26 17:25:41.602   628 unique paths found.
+2026.04.26 17:25:41.602   108 partial paths from Tx to edges.
+
+2026.04.26 17:25:41.602   Calculating E-fields and generating output
+
+2026.04.26 17:25:41.602     ============ ATMOSPHERE ============
+2026.04.26 17:25:41.602     Frequency = 2.4e+09
+2026.04.26 17:25:41.602     Attenuation (db/km) = 0.00675207
+2026.04.26 17:25:41.673     Original interaction chains:           628
+2026.04.26 17:25:41.673     Interaction chains eliminated:          37
+2026.04.26 17:25:41.673     Physical paths generated:              591
+2026.04.26 17:25:41.673     High power paths retained:             500
+2026.04.26 17:25:41.673     Low power paths eliminated:             91
+
+
+2026.04.26 17:25:41.731 Starting X3D ray tracing for Tx set 18, point 2 (point 4 of 8 total)
+2026.04.26 17:25:41.744   Diffraction cone ray angle = 0.05
+2026.04.26 17:25:41.744   Using 1 GPU ray tracer (2 CPU threads)
+2026.04.26 17:25:41.757   Ray tracing ranges: 
+2026.04.26 17:25:41.757     Minimum phi: 0
+2026.04.26 17:25:41.757     Maximum phi: 360
+2026.04.26 17:25:41.757     Minimum theta: 0
+2026.04.26 17:25:41.757     Maximum theta: 180
+2026.04.26 17:25:41.757   Model parameters: 
+2026.04.26 17:25:41.757     Reflections:         3
+2026.04.26 17:25:41.757     Transmissions:       0
+2026.04.26 17:25:41.757     Diffractions:        1
+2026.04.26 17:25:41.757     Ray spacing (degrees): 0.05
+
+2026.04.26 17:25:41.759   Advanced model parameters:
+2026.04.26 17:25:41.759     Maximum reflections before first diffraction: 2
+2026.04.26 17:25:41.759     Maximum reflections between two diffractions: 0
+2026.04.26 17:25:41.759     Maximum reflections after last diffraction: 2
+2026.04.26 17:25:41.759   Detected 1 GPU devices.
+2026.04.26 17:25:41.761   Licensed 1 GPU devices.
+2026.04.26 17:25:41.761   Running on 1 GPU devices.
+2026.04.26 17:25:41.761     Device ID's: [ 0 ]
+2026.04.26 17:25:41.924   Optimized concurrent GPU rays: 65536
+2026.04.26 17:26:11.549   GPU ray tracing (15613/65536 active): 6% complete
+
+2026.04.26 17:26:11.650   Beginning next round of queued diffractions
+
+2026.04.26 17:26:34.376   GPU ray tracing (65536/65536 active): 5% complete
+2026.04.26 17:27:19.833   GPU ray tracing (65536/65536 active): 10% complete
+2026.04.26 17:28:04.158   GPU ray tracing (65536/65536 active): 15% complete
+2026.04.26 17:28:56.597   GPU ray tracing (65536/65536 active): 20% complete
+2026.04.26 17:29:02.272   GPU ray tracing (60202/65536 active): 26% complete
+2026.04.26 17:29:09.739   GPU ray tracing (16904/65536 active): 40% complete
+2026.04.26 17:29:09.946   Total Number of Rays shot: 383713280
+2026.04.26 17:29:09.946   Total Number of active rays shot: 382453955
+2026.04.26 17:29:09.946   Total Initial Rays shot: 16582377
+2026.04.26 17:29:09.946   814 unique paths found.
+2026.04.26 17:29:09.946   155 partial paths from Tx to edges.
+
+2026.04.26 17:29:09.946   Calculating E-fields and generating output
+
+2026.04.26 17:29:09.946     ============ ATMOSPHERE ============
+2026.04.26 17:29:09.946     Frequency = 2.4e+09
+2026.04.26 17:29:09.946     Attenuation (db/km) = 0.00675207
+2026.04.26 17:29:10.019     Original interaction chains:           814
+2026.04.26 17:29:10.019     Interaction chains eliminated:          47
+2026.04.26 17:29:10.019     Physical paths generated:              767
+2026.04.26 17:29:10.019     High power paths retained:             673
+2026.04.26 17:29:10.019     Low power paths eliminated:             94
+
+
+2026.04.26 17:29:10.082 Starting X3D ray tracing for Tx set 19, point 1 (point 5 of 8 total)
+2026.04.26 17:29:10.091   Diffraction cone ray angle = 0.05
+2026.04.26 17:29:10.091   Using 1 GPU ray tracer (2 CPU threads)
+2026.04.26 17:29:10.104   Ray tracing ranges: 
+2026.04.26 17:29:10.104     Minimum phi: 0
+2026.04.26 17:29:10.104     Maximum phi: 360
+2026.04.26 17:29:10.104     Minimum theta: 0
+2026.04.26 17:29:10.104     Maximum theta: 180
+2026.04.26 17:29:10.104   Model parameters: 
+2026.04.26 17:29:10.104     Reflections:         3
+2026.04.26 17:29:10.104     Transmissions:       0
+2026.04.26 17:29:10.104     Diffractions:        1
+2026.04.26 17:29:10.104     Ray spacing (degrees): 0.05
+
+2026.04.26 17:29:10.105   Advanced model parameters:
+2026.04.26 17:29:10.105     Maximum reflections before first diffraction: 2
+2026.04.26 17:29:10.105     Maximum reflections between two diffractions: 0
+2026.04.26 17:29:10.105     Maximum reflections after last diffraction: 2
+2026.04.26 17:29:10.105   Detected 1 GPU devices.
+2026.04.26 17:29:10.115   Licensed 1 GPU devices.
+2026.04.26 17:29:10.115   Running on 1 GPU devices.
+2026.04.26 17:29:10.115     Device ID's: [ 0 ]
+2026.04.26 17:29:10.232   Optimized concurrent GPU rays: 65536
+2026.04.26 17:29:37.843   GPU ray tracing (17277/65536 active): 6% complete
+
+2026.04.26 17:29:37.922   Beginning next round of queued diffractions
+
+2026.04.26 17:29:56.859   GPU ray tracing (65536/65536 active): 5% complete
+2026.04.26 17:30:46.565   GPU ray tracing (65536/65536 active): 10% complete
+2026.04.26 17:31:34.806   GPU ray tracing (65536/65536 active): 15% complete
+2026.04.26 17:32:14.549   GPU ray tracing (57632/65536 active): 20% complete
+2026.04.26 17:32:30.088   GPU ray tracing (32279/65536 active): 28% complete
+2026.04.26 17:32:30.451   Total Number of Rays shot: 366346240
+2026.04.26 17:32:30.451   Total Number of active rays shot: 364568756
+2026.04.26 17:32:30.451   Total Initial Rays shot: 16582377
+2026.04.26 17:32:30.451   811 unique paths found.
+2026.04.26 17:32:30.451   172 partial paths from Tx to edges.
+
+2026.04.26 17:32:30.451   Calculating E-fields and generating output
+
+2026.04.26 17:32:30.458     ============ ATMOSPHERE ============
+2026.04.26 17:32:30.458     Frequency = 2.4e+09
+2026.04.26 17:32:30.458     Attenuation (db/km) = 0.00675207
+2026.04.26 17:32:30.524     Original interaction chains:           811
+2026.04.26 17:32:30.524     Interaction chains eliminated:          23
+2026.04.26 17:32:30.524     Physical paths generated:              788
+2026.04.26 17:32:30.524     High power paths retained:             632
+2026.04.26 17:32:30.524     Low power paths eliminated:            156
+
+
+2026.04.26 17:32:30.582 Starting X3D ray tracing for Tx set 19, point 2 (point 6 of 8 total)
+2026.04.26 17:32:30.594   Diffraction cone ray angle = 0.05
+2026.04.26 17:32:30.594   Using 1 GPU ray tracer (2 CPU threads)
+2026.04.26 17:32:30.608   Ray tracing ranges: 
+2026.04.26 17:32:30.608     Minimum phi: 0
+2026.04.26 17:32:30.608     Maximum phi: 360
+2026.04.26 17:32:30.608     Minimum theta: 0
+2026.04.26 17:32:30.608     Maximum theta: 180
+2026.04.26 17:32:30.608   Model parameters: 
+2026.04.26 17:32:30.608     Reflections:         3
+2026.04.26 17:32:30.608     Transmissions:       0
+2026.04.26 17:32:30.608     Diffractions:        1
+2026.04.26 17:32:30.608     Ray spacing (degrees): 0.05
+
+2026.04.26 17:32:30.608   Advanced model parameters:
+2026.04.26 17:32:30.608     Maximum reflections before first diffraction: 2
+2026.04.26 17:32:30.608     Maximum reflections between two diffractions: 0
+2026.04.26 17:32:30.608     Maximum reflections after last diffraction: 2
+2026.04.26 17:32:30.608   Detected 1 GPU devices.
+2026.04.26 17:32:30.610   Licensed 1 GPU devices.
+2026.04.26 17:32:30.610   Running on 1 GPU devices.
+2026.04.26 17:32:30.610     Device ID's: [ 0 ]
+2026.04.26 17:32:30.755   Optimized concurrent GPU rays: 65536
+2026.04.26 17:33:15.148   GPU ray tracing (47046/65536 active): 5% complete
+
+2026.04.26 17:33:15.220   Beginning next round of queued diffractions
+
+2026.04.26 17:34:41.475   GPU ray tracing (52827/65536 active): 15% complete
+2026.04.26 17:34:42.491   GPU ray tracing (37736/65536 active): 21% complete
+2026.04.26 17:34:42.761   Total Number of Rays shot: 224198656
+2026.04.26 17:34:42.761   Total Number of active rays shot: 222962180
+2026.04.26 17:34:42.761   Total Initial Rays shot: 16582377
+2026.04.26 17:34:42.761   597 unique paths found.
+2026.04.26 17:34:42.761   119 partial paths from Tx to edges.
+
+2026.04.26 17:34:42.761   Calculating E-fields and generating output
+
+2026.04.26 17:34:42.761     ============ ATMOSPHERE ============
+2026.04.26 17:34:42.761     Frequency = 2.4e+09
+2026.04.26 17:34:42.761     Attenuation (db/km) = 0.00675207
+2026.04.26 17:34:42.844     Original interaction chains:           597
+2026.04.26 17:34:42.844     Interaction chains eliminated:          22
+2026.04.26 17:34:42.844     Physical paths generated:              575
+2026.04.26 17:34:42.844     High power paths retained:             575
+2026.04.26 17:34:42.844     Low power paths eliminated:              0
+
+
+2026.04.26 17:34:42.919 Starting X3D ray tracing for Tx set 20, point 1 (point 7 of 8 total)
+2026.04.26 17:34:42.919   Diffraction cone ray angle = 0.05
+2026.04.26 17:34:42.919   Using 1 GPU ray tracer (2 CPU threads)
+2026.04.26 17:34:42.934   Ray tracing ranges: 
+2026.04.26 17:34:42.936     Minimum phi: 0
+2026.04.26 17:34:42.936     Maximum phi: 360
+2026.04.26 17:34:42.936     Minimum theta: 0
+2026.04.26 17:34:42.936     Maximum theta: 180
+2026.04.26 17:34:42.936   Model parameters: 
+2026.04.26 17:34:42.936     Reflections:         3
+2026.04.26 17:34:42.936     Transmissions:       0
+2026.04.26 17:34:42.936     Diffractions:        1
+2026.04.26 17:34:42.936     Ray spacing (degrees): 0.05
+
+2026.04.26 17:34:42.936   Advanced model parameters:
+2026.04.26 17:34:42.936     Maximum reflections before first diffraction: 2
+2026.04.26 17:34:42.936     Maximum reflections between two diffractions: 0
+2026.04.26 17:34:42.936     Maximum reflections after last diffraction: 2
+2026.04.26 17:34:42.936   Detected 1 GPU devices.
+2026.04.26 17:34:42.950   Licensed 1 GPU devices.
+2026.04.26 17:34:42.950   Running on 1 GPU devices.
+2026.04.26 17:34:42.950     Device ID's: [ 0 ]
+2026.04.26 17:34:43.093   Optimized concurrent GPU rays: 65536
+2026.04.26 17:35:26.005   GPU ray tracing (24662/65536 active): 6% complete
+
+2026.04.26 17:35:26.114   Beginning next round of queued diffractions
+
+2026.04.26 17:35:34.426   GPU ray tracing (65536/65536 active): 5% complete
+2026.04.26 17:36:20.363   GPU ray tracing (65536/65536 active): 10% complete
+2026.04.26 17:37:09.209   GPU ray tracing (65536/65536 active): 15% complete
+2026.04.26 17:38:01.341   GPU ray tracing (65536/65536 active): 20% complete
+2026.04.26 17:39:02.528   GPU ray tracing (65536/65536 active): 25% complete
+2026.04.26 17:39:15.803   GPU ray tracing (46225/65536 active): 30% complete
+2026.04.26 17:39:33.019   GPU ray tracing (33302/65536 active): 37% complete
+2026.04.26 17:39:33.481   Total Number of Rays shot: 533790720
+2026.04.26 17:39:33.481   Total Number of active rays shot: 532260310
+2026.04.26 17:39:33.481   Total Initial Rays shot: 16582377
+2026.04.26 17:39:33.481   2144 unique paths found.
+2026.04.26 17:39:33.481   302 partial paths from Tx to edges.
+
+2026.04.26 17:39:33.481   Calculating E-fields and generating output
+
+2026.04.26 17:39:33.481     ============ ATMOSPHERE ============
+2026.04.26 17:39:33.481     Frequency = 2.4e+09
+2026.04.26 17:39:33.481     Attenuation (db/km) = 0.00675207
+2026.04.26 17:39:33.612     Original interaction chains:          2144
+2026.04.26 17:39:33.612     Interaction chains eliminated:         138
+2026.04.26 17:39:33.612     Physical paths generated:             2006
+2026.04.26 17:39:33.612     High power paths retained:             895
+2026.04.26 17:39:33.612     Low power paths eliminated:           1111
+
+
+2026.04.26 17:39:33.669 Starting X3D ray tracing for Tx set 20, point 2 (point 8 of 8 total)
+2026.04.26 17:39:33.687   Diffraction cone ray angle = 0.05
+2026.04.26 17:39:33.687   Using 1 GPU ray tracer (2 CPU threads)
+2026.04.26 17:39:33.697   Ray tracing ranges: 
+2026.04.26 17:39:33.697     Minimum phi: 0
+2026.04.26 17:39:33.697     Maximum phi: 360
+2026.04.26 17:39:33.697     Minimum theta: 0
+2026.04.26 17:39:33.697     Maximum theta: 180
+2026.04.26 17:39:33.697   Model parameters: 
+2026.04.26 17:39:33.697     Reflections:         3
+2026.04.26 17:39:33.697     Transmissions:       0
+2026.04.26 17:39:33.697     Diffractions:        1
+2026.04.26 17:39:33.697     Ray spacing (degrees): 0.05
+
+2026.04.26 17:39:33.699   Advanced model parameters:
+2026.04.26 17:39:33.699     Maximum reflections before first diffraction: 2
+2026.04.26 17:39:33.699     Maximum reflections between two diffractions: 0
+2026.04.26 17:39:33.699     Maximum reflections after last diffraction: 2
+2026.04.26 17:39:33.699   Detected 1 GPU devices.
+2026.04.26 17:39:33.710   Licensed 1 GPU devices.
+2026.04.26 17:39:33.710   Running on 1 GPU devices.
+2026.04.26 17:39:33.710     Device ID's: [ 0 ]
+2026.04.26 17:39:33.844   Optimized concurrent GPU rays: 65536
+2026.04.26 17:40:22.228   GPU ray tracing (38680/65536 active): 5% complete
+
+2026.04.26 17:40:22.354   Beginning next round of queued diffractions
+
+2026.04.26 17:40:27.762   GPU ray tracing (65536/65536 active): 5% complete
+2026.04.26 17:41:14.049   GPU ray tracing (65536/65536 active): 10% complete
+2026.04.26 17:42:05.685   GPU ray tracing (65536/65536 active): 15% complete
+2026.04.26 17:43:02.402   GPU ray tracing (65536/65536 active): 20% complete
+2026.04.26 17:44:06.631   GPU ray tracing (65536/65536 active): 25% complete
+2026.04.26 17:44:41.029   GPU ray tracing (54440/65536 active): 30% complete
+2026.04.26 17:44:43.024   GPU ray tracing (33653/65536 active): 38% complete
+2026.04.26 17:44:43.451   Total Number of Rays shot: 540999680
+2026.04.26 17:44:43.451   Total Number of active rays shot: 539795200
+2026.04.26 17:44:43.451   Total Initial Rays shot: 16582377
+2026.04.26 17:44:43.451   2318 unique paths found.
+2026.04.26 17:44:43.451   304 partial paths from Tx to edges.
+
+2026.04.26 17:44:43.451   Calculating E-fields and generating output
+
+2026.04.26 17:44:43.451     ============ ATMOSPHERE ============
+2026.04.26 17:44:43.451     Frequency = 2.4e+09
+2026.04.26 17:44:43.451     Attenuation (db/km) = 0.00675207
+2026.04.26 17:44:43.602     Original interaction chains:          2318
+2026.04.26 17:44:43.602     Interaction chains eliminated:         165
+2026.04.26 17:44:43.602     Physical paths generated:             2153
+2026.04.26 17:44:43.602     High power paths retained:            1000
+2026.04.26 17:44:43.602     Low power paths eliminated:           1153
+
+2026.04.26 17:44:43.735 TxRx set: UE_Set_1  Set number: 11  Type: GridSet  Number of points: 247  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:44:43.735   Receiver:
+2026.04.26 17:44:43.735     Collection radius (m): auto
+2026.04.26 17:44:43.735     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:44:43.735     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:44:43.735     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:44:43.735   Length (x) [m]: 9.34  Length (y) [m]: 6.31  Planar rotation (degrees): 0  Spacing (m): 0.5
+
+2026.04.26 17:44:43.735 TxRx set: UE_Set_2  Set number: 12  Type: GridSet  Number of points: 114  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:44:43.735   Receiver:
+2026.04.26 17:44:43.735     Collection radius (m): auto
+2026.04.26 17:44:43.735     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:44:43.739     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:44:43.739     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:44:43.739   Length (x) [m]: 2.77  Length (y) [m]: 9.42  Planar rotation (degrees): 0  Spacing (m): 0.5
+
+2026.04.26 17:44:43.739 TxRx set: UE_Set_3  Set number: 13  Type: GridSet  Number of points: 65  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:44:43.739   Receiver:
+2026.04.26 17:44:43.739     Collection radius (m): auto
+2026.04.26 17:44:43.739     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:44:43.739     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:44:43.739     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:44:43.739   Length (x) [m]: 6.21  Length (y) [m]: 2.28  Planar rotation (degrees): 0  Spacing (m): 0.5
+
+2026.04.26 17:44:43.739 TxRx set: UE_Set_4  Set number: 14  Type: GridSet  Number of points: 104  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:44:43.739   Receiver:
+2026.04.26 17:44:43.739     Collection radius (m): auto
+2026.04.26 17:44:43.739     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:44:43.739     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:44:43.739     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:44:43.739   Length (x) [m]: 6.21  Length (y) [m]: 3.71  Planar rotation (degrees): 0  Spacing (m): 0.5
+
+2026.04.26 17:44:43.741 TxRx set: UE_Set_5  Set number: 15  Type: GridSet  Number of points: 78  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:44:43.741   Receiver:
+2026.04.26 17:44:43.741     Collection radius (m): auto
+2026.04.26 17:44:43.741     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:44:43.741     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:44:43.741     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:44:43.741   Length (x) [m]: 6.41  Length (y) [m]: 2.68  Planar rotation (degrees): 0  Spacing (m): 0.5
+
+2026.04.26 17:44:43.741 TxRx set: UE_Set_6  Set number: 16  Type: GridSet  Number of points: 105  APG Accelerated: yes  Fit to terrain: yes
+2026.04.26 17:44:43.741   Receiver:
+2026.04.26 17:44:43.741     Collection radius (m): auto
+2026.04.26 17:44:43.741     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2400  Phase (degrees): 0
+2026.04.26 17:44:43.741     Antenna: Omnidirectional  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2026.04.26 17:44:43.741     E-plane first null beamwidth (degrees): 180  E-plane half power beamwidth (degrees): 90  H-plane first null beamwidth (degrees): 180  H-plane half power beamwidth (degrees): 90
+2026.04.26 17:44:43.741   Length (x) [m]: 2.29  Length (y) [m]: 10.42  Planar rotation (degrees): 0  Spacing (m): 0.5
+
+2026.04.26 17:44:43.743 Starting Adjacent Path Generation for Tx set 17, Rx set 11
+2026.04.26 17:44:43.743   Using 2 CPU threads
+2026.04.26 17:44:43.743   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:43.743   Loading initial paths from database
+2026.04.26 17:44:43.743     Failed to load initial paths from database
+2026.04.26 17:44:43.743 Starting Adjacent Path Generation for Tx set 17, Rx set 12
+2026.04.26 17:44:43.743   Using 2 CPU threads
+2026.04.26 17:44:43.743   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:43.743   Loading initial paths from database
+2026.04.26 17:44:43.748     Failed to load initial paths from database
+2026.04.26 17:44:43.748 Starting Adjacent Path Generation for Tx set 17, Rx set 13
+2026.04.26 17:44:43.748   Using 2 CPU threads
+2026.04.26 17:44:43.748   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:43.748   Loading initial paths from database
+2026.04.26 17:44:43.751     Loaded 25 initial paths from database
+
+2026.04.26 17:44:43.837   Mapping initial/final channels
+2026.04.26 17:44:43.837     Done mapping initial/final channels
+
+2026.04.26 17:44:43.837   Identifying source paths
+2026.04.26 17:44:43.837     Done identifying source paths
+
+2026.04.26 17:44:43.837   Constructing adjacent paths
+2026.04.26 17:44:43.884     Done constructing adjacent paths
+
+2026.04.26 17:44:43.925   Constructed 696 paths
+
+
+2026.04.26 17:44:43.925 Starting Adjacent Path Generation for Tx set 17, Rx set 14
+2026.04.26 17:44:43.925   Using 2 CPU threads
+2026.04.26 17:44:43.925   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:43.933   Loading initial paths from database
+2026.04.26 17:44:43.933     Failed to load initial paths from database
+2026.04.26 17:44:43.933 Starting Adjacent Path Generation for Tx set 17, Rx set 15
+2026.04.26 17:44:43.933   Using 2 CPU threads
+2026.04.26 17:44:43.933   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:43.933   Loading initial paths from database
+2026.04.26 17:44:43.937     Failed to load initial paths from database
+2026.04.26 17:44:43.937 Starting Adjacent Path Generation for Tx set 17, Rx set 16
+2026.04.26 17:44:43.937   Using 2 CPU threads
+2026.04.26 17:44:43.937   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:43.937   Loading initial paths from database
+2026.04.26 17:44:43.941     Loaded 50 initial paths from database
+
+2026.04.26 17:44:43.941   Mapping initial/final channels
+2026.04.26 17:44:43.941     Done mapping initial/final channels
+
+2026.04.26 17:44:43.941   Identifying source paths
+2026.04.26 17:44:43.941     Done identifying source paths
+
+2026.04.26 17:44:43.957   Constructing adjacent paths
+2026.04.26 17:44:44.382     Done constructing adjacent paths
+
+2026.04.26 17:44:44.382   Constructed 2448 paths
+
+
+2026.04.26 17:44:44.382 Starting Adjacent Path Generation for Tx set 18, Rx set 11
+2026.04.26 17:44:44.382   Using 2 CPU threads
+2026.04.26 17:44:44.382   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:44.382   Loading initial paths from database
+2026.04.26 17:44:44.385     Loaded 25 initial paths from database
+
+2026.04.26 17:44:44.385   Mapping initial/final channels
+2026.04.26 17:44:44.385     Done mapping initial/final channels
+
+2026.04.26 17:44:44.385   Identifying source paths
+2026.04.26 17:44:44.385     Done identifying source paths
+
+2026.04.26 17:44:44.385   Constructing adjacent paths
+2026.04.26 17:44:44.606     Done constructing adjacent paths
+
+2026.04.26 17:44:44.974   Constructed 3184 paths
+
+
+2026.04.26 17:44:44.974 Starting Adjacent Path Generation for Tx set 18, Rx set 12
+2026.04.26 17:44:44.974   Using 2 CPU threads
+2026.04.26 17:44:44.974   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:44.974   Loading initial paths from database
+2026.04.26 17:44:44.978     Loaded 25 initial paths from database
+
+2026.04.26 17:44:44.990   Mapping initial/final channels
+2026.04.26 17:44:44.990     Done mapping initial/final channels
+
+2026.04.26 17:44:44.990   Identifying source paths
+2026.04.26 17:44:44.990     Done identifying source paths
+
+2026.04.26 17:44:44.990   Constructing adjacent paths
+2026.04.26 17:44:45.065     Done constructing adjacent paths
+
+2026.04.26 17:44:45.141   Constructed 1029 paths
+
+
+2026.04.26 17:44:45.141 Starting Adjacent Path Generation for Tx set 18, Rx set 13
+2026.04.26 17:44:45.141   Using 2 CPU threads
+2026.04.26 17:44:45.141   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:45.141   Loading initial paths from database
+2026.04.26 17:44:45.143     Failed to load initial paths from database
+2026.04.26 17:44:45.143 Starting Adjacent Path Generation for Tx set 18, Rx set 14
+2026.04.26 17:44:45.143   Using 2 CPU threads
+2026.04.26 17:44:45.143   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:45.143   Loading initial paths from database
+2026.04.26 17:44:45.147     Loaded 25 initial paths from database
+
+2026.04.26 17:44:45.147   Mapping initial/final channels
+2026.04.26 17:44:45.147     Done mapping initial/final channels
+
+2026.04.26 17:44:45.147   Identifying source paths
+2026.04.26 17:44:45.147     Done identifying source paths
+
+2026.04.26 17:44:45.147   Constructing adjacent paths
+2026.04.26 17:44:45.205     Done constructing adjacent paths
+
+2026.04.26 17:44:45.240   Constructed 457 paths
+
+
+2026.04.26 17:44:45.240 Starting Adjacent Path Generation for Tx set 18, Rx set 15
+2026.04.26 17:44:45.240   Using 2 CPU threads
+2026.04.26 17:44:45.240   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:45.240   Loading initial paths from database
+2026.04.26 17:44:45.240     Loaded 25 initial paths from database
+
+2026.04.26 17:44:45.255   Mapping initial/final channels
+2026.04.26 17:44:45.255     Done mapping initial/final channels
+
+2026.04.26 17:44:45.255   Identifying source paths
+2026.04.26 17:44:45.255     Done identifying source paths
+
+2026.04.26 17:44:45.255   Constructing adjacent paths
+2026.04.26 17:44:45.286     Done constructing adjacent paths
+
+2026.04.26 17:44:45.302   Constructed 261 paths
+
+
+2026.04.26 17:44:45.302 Starting Adjacent Path Generation for Tx set 18, Rx set 16
+2026.04.26 17:44:45.302   Using 2 CPU threads
+2026.04.26 17:44:45.302   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:45.302   Loading initial paths from database
+2026.04.26 17:44:45.322     Loaded 50 initial paths from database
+
+2026.04.26 17:44:45.328   Mapping initial/final channels
+2026.04.26 17:44:45.328     Done mapping initial/final channels
+
+2026.04.26 17:44:45.334   Identifying source paths
+2026.04.26 17:44:45.334     Done identifying source paths
+
+2026.04.26 17:44:45.334   Constructing adjacent paths
+2026.04.26 17:44:45.636     Done constructing adjacent paths
+
+2026.04.26 17:44:45.636   Constructed 2098 paths
+
+
+2026.04.26 17:44:45.636 Starting Adjacent Path Generation for Tx set 19, Rx set 11
+2026.04.26 17:44:45.636   Using 2 CPU threads
+2026.04.26 17:44:45.636   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:45.636   Loading initial paths from database
+2026.04.26 17:44:45.656     Loaded 50 initial paths from database
+
+2026.04.26 17:44:45.656   Mapping initial/final channels
+2026.04.26 17:44:45.656     Done mapping initial/final channels
+
+2026.04.26 17:44:45.668   Identifying source paths
+2026.04.26 17:44:45.668     Done identifying source paths
+
+2026.04.26 17:44:45.668   Constructing adjacent paths
+2026.04.26 17:44:46.143     Done constructing adjacent paths
+
+2026.04.26 17:44:46.257   Constructed 3851 paths
+
+
+2026.04.26 17:44:46.257 Starting Adjacent Path Generation for Tx set 19, Rx set 12
+2026.04.26 17:44:46.257   Using 2 CPU threads
+2026.04.26 17:44:46.257   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:46.257   Loading initial paths from database
+2026.04.26 17:44:46.265     Loaded 50 initial paths from database
+
+2026.04.26 17:44:46.269   Mapping initial/final channels
+2026.04.26 17:44:46.269     Done mapping initial/final channels
+
+2026.04.26 17:44:46.269   Identifying source paths
+2026.04.26 17:44:46.269     Done identifying source paths
+
+2026.04.26 17:44:46.269   Constructing adjacent paths
+2026.04.26 17:44:46.506     Done constructing adjacent paths
+
+2026.04.26 17:44:46.631   Constructed 2556 paths
+
+
+2026.04.26 17:44:46.631 Starting Adjacent Path Generation for Tx set 19, Rx set 13
+2026.04.26 17:44:46.631   Using 2 CPU threads
+2026.04.26 17:44:46.631   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:46.631   Loading initial paths from database
+2026.04.26 17:44:46.634     Failed to load initial paths from database
+2026.04.26 17:44:46.634 Starting Adjacent Path Generation for Tx set 19, Rx set 14
+2026.04.26 17:44:46.634   Using 2 CPU threads
+2026.04.26 17:44:46.634   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:46.634   Loading initial paths from database
+2026.04.26 17:44:46.640     Loaded 37 initial paths from database
+
+2026.04.26 17:44:46.650   Mapping initial/final channels
+2026.04.26 17:44:46.650     Done mapping initial/final channels
+
+2026.04.26 17:44:46.650   Identifying source paths
+2026.04.26 17:44:46.650     Done identifying source paths
+
+2026.04.26 17:44:46.650   Constructing adjacent paths
+2026.04.26 17:44:46.713     Done constructing adjacent paths
+
+2026.04.26 17:44:46.760   Constructed 523 paths
+
+
+2026.04.26 17:44:46.760 Starting Adjacent Path Generation for Tx set 19, Rx set 15
+2026.04.26 17:44:46.760   Using 2 CPU threads
+2026.04.26 17:44:46.760   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:46.760   Loading initial paths from database
+2026.04.26 17:44:46.760     Loaded 50 initial paths from database
+
+2026.04.26 17:44:46.776   Mapping initial/final channels
+2026.04.26 17:44:46.776     Done mapping initial/final channels
+
+2026.04.26 17:44:46.776   Identifying source paths
+2026.04.26 17:44:46.776     Done identifying source paths
+
+2026.04.26 17:44:46.776   Constructing adjacent paths
+2026.04.26 17:44:46.871     Done constructing adjacent paths
+
+2026.04.26 17:44:46.888   Constructed 504 paths
+
+
+2026.04.26 17:44:46.888 Starting Adjacent Path Generation for Tx set 19, Rx set 16
+2026.04.26 17:44:46.888   Using 2 CPU threads
+2026.04.26 17:44:46.888   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:46.888   Loading initial paths from database
+2026.04.26 17:44:46.888     Failed to load initial paths from database
+2026.04.26 17:44:46.888 Starting Adjacent Path Generation for Tx set 20, Rx set 11
+2026.04.26 17:44:46.888   Using 2 CPU threads
+2026.04.26 17:44:46.888   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:46.888   Loading initial paths from database
+2026.04.26 17:44:46.904     Loaded 50 initial paths from database
+
+2026.04.26 17:44:46.904   Mapping initial/final channels
+2026.04.26 17:44:46.904     Done mapping initial/final channels
+
+2026.04.26 17:44:46.918   Identifying source paths
+2026.04.26 17:44:46.918     Done identifying source paths
+
+2026.04.26 17:44:46.918   Constructing adjacent paths
+2026.04.26 17:44:47.629     Done constructing adjacent paths
+
+2026.04.26 17:44:47.947   Constructed 6289 paths
+
+
+2026.04.26 17:44:47.947 Starting Adjacent Path Generation for Tx set 20, Rx set 12
+2026.04.26 17:44:47.947   Using 2 CPU threads
+2026.04.26 17:44:47.947   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:47.947   Loading initial paths from database
+2026.04.26 17:44:47.955     Loaded 50 initial paths from database
+
+2026.04.26 17:44:47.961   Mapping initial/final channels
+2026.04.26 17:44:47.961     Done mapping initial/final channels
+
+2026.04.26 17:44:47.961   Identifying source paths
+2026.04.26 17:44:47.961     Done identifying source paths
+
+2026.04.26 17:44:47.961   Constructing adjacent paths
+2026.04.26 17:44:48.419     Done constructing adjacent paths
+
+2026.04.26 17:44:48.623   Constructed 4731 paths
+
+
+2026.04.26 17:44:48.623 Starting Adjacent Path Generation for Tx set 20, Rx set 13
+2026.04.26 17:44:48.623   Using 2 CPU threads
+2026.04.26 17:44:48.623   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:48.623   Loading initial paths from database
+2026.04.26 17:44:48.625     Failed to load initial paths from database
+2026.04.26 17:44:48.625 Starting Adjacent Path Generation for Tx set 20, Rx set 14
+2026.04.26 17:44:48.625   Using 2 CPU threads
+2026.04.26 17:44:48.625   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:48.625   Loading initial paths from database
+2026.04.26 17:44:48.634     Loaded 50 initial paths from database
+
+2026.04.26 17:44:48.641   Mapping initial/final channels
+2026.04.26 17:44:48.641     Done mapping initial/final channels
+
+2026.04.26 17:44:48.641   Identifying source paths
+2026.04.26 17:44:48.641     Done identifying source paths
+
+2026.04.26 17:44:48.641   Constructing adjacent paths
+2026.04.26 17:44:48.946     Done constructing adjacent paths
+
+2026.04.26 17:44:49.035   Constructed 2619 paths
+
+
+2026.04.26 17:44:49.035 Starting Adjacent Path Generation for Tx set 20, Rx set 15
+2026.04.26 17:44:49.035   Using 2 CPU threads
+2026.04.26 17:44:49.035   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:49.035   Loading initial paths from database
+2026.04.26 17:44:49.041     Loaded 50 initial paths from database
+
+2026.04.26 17:44:49.050   Mapping initial/final channels
+2026.04.26 17:44:49.050     Done mapping initial/final channels
+
+2026.04.26 17:44:49.050   Identifying source paths
+2026.04.26 17:44:49.050     Done identifying source paths
+
+2026.04.26 17:44:49.050   Constructing adjacent paths
+2026.04.26 17:44:49.152     Done constructing adjacent paths
+
+2026.04.26 17:44:49.197   Constructed 847 paths
+
+
+2026.04.26 17:44:49.197 Starting Adjacent Path Generation for Tx set 20, Rx set 16
+2026.04.26 17:44:49.197   Using 2 CPU threads
+2026.04.26 17:44:49.197   Using up to 1 results writer CPU threads
+
+2026.04.26 17:44:49.201   Loading initial paths from database
+2026.04.26 17:44:49.203     Failed to load initial paths from database
+2026.04.26 17:44:49.203 Writing Wireless InSite binary results to disk
+2026.04.26 17:44:49.255 Finished writing Wireless InSite binary results to disk
+
+
+2026.04.26 17:44:49.274 Sun 26. Apr 17:44:49 2026
+
+2026.04.26 17:44:49.274 Writing P2M output files
+2026.04.26 17:44:49.276 Finished writing P2M output files
+
+2026.04.26 17:44:49.276 Geometry Processing Time: : 00:00:00.001
+2026.04.26 17:44:49.276 TxRx Set Generation Time: : 00:00:00.019
+2026.04.26 17:44:49.276 Path Discovery Time: 00:27:14.426
+2026.04.26 17:44:49.276 Path Generation Time: 00:00:00.654
+2026.04.26 17:44:49.276 Adjacent Path Generation (APG) Time: 00:00:05.446
+2026.04.26 17:44:49.276 Writing Binary Output (X3D) Time: 00:00:00.050
+2026.04.26 17:44:49.276 Writing P2M Output Time: 00:00:00.000
+
+2026.04.26 17:44:49.276 Total Runtime: : 00:27:22.273

@@ -1,0 +1,337 @@
+Format type:keyword version: 1.1.0
+begin_<project> Untitled Project
+project_id 29717
+begin_<globals> 
+longitude 0
+latitude 0
+end_<globals>
+FirstAvailableFeatureNumber 6
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 1
+FirstAvailableAntennaNumber 2
+FirstAvailableWaveformNumber 1
+begin_<caches> 
+begin_<cache> 
+type X3DGeometry
+feature -1
+filename ./Indoor_scenario_modified.X3DGeometry.cache
+valid false
+end_<cache>
+end_<caches>
+begin_<studyarea> X3D
+StudyAreaNumber 0
+active
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type local
+num_partitions 2
+num_ranks 2
+extra_queue_options 
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled yes
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+spatial_resolution 2
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 4
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+ray_spacing 0.05
+plane_wave_phase_reference automatic
+4.75 13.25 1.5
+max_reflections 3
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse yes
+DelaySpread yes
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectroMagneticFields no
+FSPathloss yes
+FSPower no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+TimeOfArrival no
+XPathloss no
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.25
+zmax 3.25
+nVertices 4
+-0.255349997896701 -0.269178602844477 0
+9.75 -0.269178602844477 0
+9.75 26.7557907104492 0
+-0.255349997896701 26.7557907104492 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<feature> 
+feature 4
+floorplan
+active
+filename ./Floor Plan 1.flp
+end_<feature>
+begin_<txrx_sets> 
+filename ./Indoor_scenario_modified.txrx
+FirstAvailableTxRxNumber 85
+end_<txrx_sets>
+FirstAvailableCommSystemNumber 1
+begin_<antenna> Omnidirectional
+antenna 0
+type omnidirectional
+waveform 0
+polarization vertical
+power_threshold -250
+cable_loss 0
+VSWR 1
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+eplane_hpbw 90
+eplane_fnbw 180
+end_<antenna>
+begin_<antenna> MIMO 4 Antennas
+description MIMO 4 Antennas
+antenna 1
+type MIMO
+waveform 0
+sparamFilename 
+selectedElement 0
+renderingSize 0.028
+begin_<antenna> Omnidirectional
+antenna -1
+type omnidirectional
+waveform 0
+polarization vertical
+power_threshold -250
+cable_loss 0
+VSWR 1
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+eplane_hpbw 90
+eplane_fnbw 180
+end_<antenna>
+begin_<MimoElement> 
+position -0 -0.0936851 -0
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0312284 -0
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0312284 -0
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0936851 -0
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+end_<antenna>
+begin_<Waveform> Sinusoid 2.4GHz
+description                                                      MIMO 8 Antennas
+Sinusoid
+waveform 0
+begin_<FrequencySweep> 
+SweepType StartEndCount
+StartValue 500.000
+Increment 10000.000
+Count 10
+EndValue 1500.000
+end_<FrequencySweep>
+CarrierFrequency 2400000000.000
+phase 0.000
+bandwidth 20000000.000
+end_<Waveform>
+FirstAvailableFilterNumber 0
+begin_<graph> 
+Title AP_test (#1) --> First_trajectory : Received power
+Xlabel Distance
+Ylabel Power
+type rectangular
+LegendPos 4
+xgrid 2
+ygrid 2
+rgrid 2
+tgrid 2
+autoxmin 1
+autoxmax 1
+autoymin 1
+autoymax 1
+autormin 1
+autormax 1
+autofmin 1
+autofmax 1
+xmin 0.000000e+00 
+xmax 3.651250e+02 
+actualxmin 0.000000000000
+actualxmax 365.125000000000
+ymin -2.500000e+02 
+ymax -3.722570e+01 
+rmin -2.500000e+02 
+rmax -3.722570e+01 
+actualymin -250.000000000000
+actualymax -37.225700378418
+actualrmin -250.000000000000
+actualrmax -37.225700378418
+fmin 0.0                                
+fmax 1.0                                
+bgcolor 255 255 255
+gridcolor 128 128 128
+labelcolor 0 0 0
+begin_<plot> 
+filename ./X3D/Indoor_scenario_modified.power.t001_25.r024.p2m
+value Power
+axis Distance
+legend AP_test (#1) --> First_trajectory : Received power
+linetype lines
+color 255 0 0
+begin_<xAxisUnits> 
+base meters
+option base
+log false
+end_<xAxisUnits>
+begin_<yAxisUnits> 
+base watts
+option milli
+log true
+begin_<applicationUnits> 
+base watts
+option milli
+log true
+end_<applicationUnits>
+end_<yAxisUnits>
+end_<plot>
+end_<graph>
+begin_<requests> 
+cartesian
+sealevel
+local
+CalculationMode New
+MaxRenderedPaths 50
+FieldAnimationIncrement 10
+FieldAnimationTimeAveraged yes
+CEF no
+ComplexImpulseResponse yes
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss yes
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival no
+XPathloss no
+TerrainProfile no
+end_<requests>
+begin_<Scales> 
+begin_<MpeThreshhold> 
+AutoScaling 0
+DrawValues 0
+AutoUpdating 0
+Discrete 1
+UseGlobalOpacity 1
+ManualValuesSet 1
+ClampedHigh 1
+ClampedLow 1
+Alpha 1.000e+00
+ManualMin 0.000e+00
+ManualMax 2.000e+02
+TextColor 1.000 1.000 1.000
+Colors 4
+0.300 0.000 0.500
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.000 0.000
+PartitionValues 
+3
+0.001 50.000 100.000 
+end_<MpeThreshhold>
+begin_<Special1> 
+AutoScaling 1
+DrawValues 0
+AutoUpdating 1
+Discrete 0
+UseGlobalOpacity 0
+ManualValuesSet 0
+ClampedHigh 1
+ClampedLow 1
+Alpha 8.000e-01
+ManualMin 0.000e+00
+ManualMax 0.000e+00
+TextColor 1.000 1.000 1.000
+Colors 6
+0.300 0.000 0.500
+0.000 0.000 1.000
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.500 0.000
+1.000 0.000 0.000
+PartitionValues 
+5
+1.000e-25 1.000e-25 1.000e-25 1.000e-25 1.000e-25 
+end_<Special1>
+end_<Scales>
+end_<project>
